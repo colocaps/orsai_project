@@ -14,7 +14,7 @@ class NavigationManagerImpl implements NavigationManager {
   Future<T?> navigateToWithArgs<T, TArgs>(
     BuildContext context,
     String route,
-    TArgs args,
+    TArgs? args,
   ) {
     return Navigator.of(context).pushNamed(
       route,

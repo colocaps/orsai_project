@@ -53,7 +53,8 @@ dependencies:
 
   core:
     path: ./core
-
+  sign_in:
+    path: ./features/auth_module/sign_in
 
 dev_dependencies:
   flutter_test:

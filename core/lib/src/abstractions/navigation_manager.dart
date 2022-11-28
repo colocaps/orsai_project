@@ -6,13 +6,13 @@ abstract class NavigationManager {
   Future<T?> navigateToWithArgs<T, TArgs>(
     BuildContext context,
     String route,
-    TArgs args,
+    TArgs? args,
   );
 
   Future<T?> pushNamedAndRemoveUntil<T, TArgs>(
     BuildContext context,
     String route,
     RoutePredicate predicate, {
-    TArgs args,
+    TArgs? args,
   });
 }
