@@ -1,10 +1,8 @@
 import 'dart:io';
-
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:sign_in/src/domain/entities/token_entity.dart';
 import 'package:sign_in/src/presentation/widgets/password_recover_link.dart';
 import 'package:sign_in/src/presentation/widgets/register_link.dart';
 import 'package:sign_in/src/presentation/widgets/sign_in_button.dart';

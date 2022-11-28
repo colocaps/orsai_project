@@ -1,5 +1,7 @@
 library core;
 
+export 'package:core/src/entities/entities.dart';
+
 export 'package:core/src/integrations/get_it_injector_container.dart'
     show GetItInjector;
 

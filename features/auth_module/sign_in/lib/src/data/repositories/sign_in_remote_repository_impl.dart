@@ -1,5 +1,4 @@
 import 'package:core/core.dart';
-import 'package:sign_in/src/domain/entities/token_entity.dart';
 import 'package:sign_in/src/domain/interactor/input_output/sign_in_use_case_input.dart';
 import 'package:sign_in/src/domain/interactor/input_output/sign_in_use_case_output.dart';
 import 'package:sign_in/src/domain/repositories/sign_in_remote_repository.dart';

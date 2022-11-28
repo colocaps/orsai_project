@@ -1,7 +1,7 @@
 name: profile_selection
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
+publish_to: none
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
@@ -10,11 +10,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  equatable: 2.0.3
+  flutter_bloc: 8.0.1
+  url_launcher: 6.1.2
+  responsive_sizer: ^3.0.8
+  google_fonts: ^2.2.0
+  mocktail: ^0.3.0
+  build_runner: ^2.1.11
+  auto_size_text: ^3.0.0
+  responsive_builder: ^0.4.2
+  core:
+    path: ../../../core
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  bloc_test: 9.0.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

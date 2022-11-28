@@ -1,4 +1,4 @@
-import 'package:sign_in/src/domain/entities/token_entity.dart';
+import 'package:core/core.dart';
 
 class SignInUseCaseOutput {
   final TokenEntity? data;

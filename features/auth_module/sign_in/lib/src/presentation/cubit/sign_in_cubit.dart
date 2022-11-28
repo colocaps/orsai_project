@@ -1,7 +1,6 @@
 import 'package:core/core.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sign_in/src/domain/entities/token_entity.dart';
 import 'package:sign_in/src/domain/interactor/sign_in_use_case.dart';
 
 part 'sign_in_state.dart';

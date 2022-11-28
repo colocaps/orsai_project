@@ -1,5 +1,4 @@
 import 'package:core/core.dart';
-import 'package:sign_in/src/domain/entities/token_entity.dart';
 import 'package:sign_in/src/domain/repositories/get_token_remote_repository.dart';
 import 'package:sign_in/src/domain/repositories/get_token_remote_repository_output.dart';
 
