@@ -1,0 +1,284 @@
+{
+  "@@locale": "en",
+  "user_label": "User",
+  "@user_label": {
+    "description": "Hint and label for the sign in form user field"
+  },
+  "password_label": "Password",
+  "@password_label": {
+    "description": "Hint and label for the sign in form password field"
+  },
+  "sign_in_label": "Sign In",
+  "@sign_in_label": {
+    "description": "Label for the sign in form button"
+  },
+  "description_label": "Welcome to The Movie App !",
+  "@description_label": {
+    "description": "Label for the description of the app"
+  },
+  "greeting_label": "Hello",
+  "@greeting_label": {
+    "description": "Label for the greeting of home page"
+  },
+  "profile_label": "Profile",
+  "@profile_label": {
+    "description": "Label for the profile button of home page"
+  },
+  
+  "sign_out_label": "Sign Out",
+  "@sign_out_label": {
+    "description": "Label for the sign out button of home page"
+  },
+ 
+ 
+  "dashboard_card_label": "Dashboard",
+  "@dashboard_card_label": {
+  "description": "Label for the dashboard card on home page"
+  },
+  
+  "search_code_button_label": "Search",
+  "@search_code_button_label": {
+  "description": "Label for the search button of consult stock scanner page"
+  },
+ 
+  "sign_in_error": "User or Password are Wrong",
+  "@sign_in_error": {
+  "description": "Label for the error on sign in page"
+  },
+ 
+  "sign_out_snackbar_text": "Sign out Successful",
+  "@sign_out_snackbar_text": {
+  "description": "Label for the snackbar of sign out page"
+  },
+  "sign_out_title_text": "Thank You !",
+  "@sign_out_title_text": {
+  "description": "Label for the title of sign out page"
+  },
+  "sign_out_title_text_continue": "For using our App",
+  "@sign_out_title_text_continue": {
+  "description": "Label for the title continue of sign out page"
+  },
+  "sign_out_subtitle_text": "You will be redirected to the sign in page shortly",
+  "@sign_out_subtitle_text": {
+  "description": "Label for the subtitle of sign out page"
+  },
+  "empty_text_email": "Enter Email",
+  "@empty_text_email": {
+  "description": "Label for the error of email textfield sign in page "
+  },
+  "invalid_format_email": "Invalid Email Format",
+  "@invalid_format_email": {
+  "description": "Label for the error of email textfield sign in page "
+  },
+  "empty_text_password": "Enter Password",
+  "@empty_text_password": {
+  "description": "Label for the error of email textfield sign in page "
+  },
+  "invalid_format_password": "Password must be at least four carachters length",
+  "@invalid_format_password": {
+  "description": "Label for the error of password textfield sign in page "
+  },
+  "check_product_stock_title": "Check current stock",
+  "@check_product_stock_title": {
+  "description": "Label for the title of check product stock component "
+  },
+  "empty_text_barcode": "Enter code",
+  "@empty_text_barcode": {
+  "description": "Label for the error of barcode textfield consult product stock page "
+  },
+  "label_product_size": "SIZE",
+  "@label_product_size": {
+  "description": "Label for the product size check product stock page "
+  },
+  "label_reload" : "Reload",
+  "@label_reload" : {
+  "description" : "Label for the button reload"
+  },
+  "label_error" : "Error",
+  "@label_error" : {
+    "description" : "Label for error texts"
+  },
+  "label_verify_internet_connection" : "Verify your internet connection",
+  
+    "@label_verify_internet_connection" :{
+      "description" : "label for Verify your internet connection"
+  },
+  "label_ok" : "OK",
+  
+    "@label_ok" : {
+      "description" : "label for texts ok"
+    },
+    "label_press_ok" : "Press OK to sign out",
+    "@label_press_ok" : {
+      "description" : "label for the sign out modal"
+    },
+    "label_sure_of_signing_out" : " Are you sure to sign out ?",
+    "@label_sure_of_signing_out" : {
+      "description" : 
+        "label for the question on signout modal"
+      
+    },
+    "label_cancel" : "Cancel",
+    "@label_cancel" :{
+      "description" : "label for the cancel button on sign out modal"
+    },
+    "label_sign_out" : "Sign out Succesfully",
+  "@label_sign_out" : {
+    "description" : "Label for sign put succsesfully text"
+  },
+     "label_were_sorry" : "We are sorry",
+  "@label_were_sorry" : {
+    "description" : "Label for we are sorry text"
+  },
+   "movie_does_not_exists" : "There is no movie with that name",
+  "@movie_does_not_exists" : {
+    "description" : "Label for movie inexistent text"
+  },
+   "cast_inexistent" : "There is no cast for this movie",
+  "@cast_inexistent" : {
+    "description" : "Label for cast inexistent text"
+  },
+  "cast_error" : "There is no description or cast for this movie",
+  "@cast_error" : {
+    "description" : "Label for cast error text"
+  },
+  "movie_details_error" : "Couldn't find details for this movie",
+  "@movie_details_error" : {
+    "description" : "Label for movie details error text"
+  },
+  "popular_movies_error_text" : "Couldn't find any popular movies, try again later",
+  "@popular_movies_error_text" : {
+    "description" : "Label for popular movie error text"
+  },
+  "now_playing_movies_menu_text" : "Now Playing Movies",
+  "@now_playing_movies_menu_text" : {
+    "description" : "Label for now playing movie menu text"
+  },
+   "popular_movies" : "Popular Movies",
+  "@popular_movies" : {
+    "description" : "Label for popular movie menu text"
+  },
+  "search_movies" : "Search Movies",
+  "@search_movies" : {
+    "description" : "Label for search movie menu text"
+  },
+  "now_playing_movies_subtitle_error" : "Couldn't find any now playing movies, try again later",
+  "@now_playing_movies_subtitle_error" : {
+    "description" : "Label for now playing movie menu text"
+  },
+  "rate_movie_correct_text" : "Rate sended succsesfully!",
+  "@rate_movie_correct_text" : {
+    "description" : "Label for rate movie successful text"
+  },
+  "rate_movie_deleted_text" : "Rate deleted succsesfully!",
+  "@rate_movie_deleted_text" : {
+    "description" : "Label for delete rate movie successful text"
+  },
+   "rate_movie_text" : "Rate the movie",
+  "@rate_movie_text" : {
+    "description" : "Label for delete rate movie  text"
+  },
+  "rate_movie_error_text" : "Couldn't send rating",
+  "@rate_movie_error_text" : {
+    "description" : "Label for delete rate movie  error text"
+  },
+  "rate_movie_deleting_error_text" : "Couldn't delete rating",
+  "@rate_movie_deleting_error_text" : {
+    "description" : "Label for deleting rate movie  error text"
+  },
+  "send_rate_button_text" : "Send rate",
+  "@send_rate_button_text" : {
+    "description" : "Text for the send rate button"
+  },
+  "delete_rate_button_text" : "Delete rate",
+  "@delete_rate_button_text" : {
+    "description" : "Text for the delete rate button"
+  },
+  "rated_movies_by_user_text" : "Rated Movies",
+  "@rated_movies_by_user_text" : {
+    "description" : "Text for the rated movies title "
+  },
+  "are_you_new" : "Are you new ? Register here",
+  "@are_you_new" : {
+    "description" : "Text for the link of register "
+  },
+  "impossible_to_connect" : "Impossible to connect to",
+  "@impossible_to_connect" : {
+    "description" : "Text for the label of impossible to connect "
+  },
+  "forgot_password" : "Forgot password ? Recover here",
+  "@forgot_password" : {
+    "description" : "Text for the label of recover password "
+  },
+  "are_your_sure_of_close" : "Are you sure of closing the App ? ",
+  "@are_your_sure_of_close" : {
+    "description" : "Text for the label of modal for closing app "
+  },
+  "are_your_sure_of_deleting_rate" : "Are you sure of deleting the rate ? ",
+  "@are_your_sure_of_deleting_rate" : {
+    "description" : "Text for the label of modal for deleting movie rate "
+  },
+  "retry_label" : "Retry ",
+  "@retry_label" : {
+    "description" : "Text for the label retry  "
+  },
+  "release_date_text" : "Release date ",
+  "@release_date_text" : {
+    "description" : "Text for the label release date  "
+  },
+    "my_vote_text" : "My vote ",
+  "@my_vote_text" : {
+    "description" : "Text for the label my vote  "
+  },
+    "dont_have_rated_movies" : "You dont have rated movies ",
+  "@dont_have_rated_movies" : {
+    "description" : "Text for the label dont_have_rated_movies  "
+  },
+    "movies_title" : "Movies ",
+  "@movies_title" : {
+    "description" : "Text for the label movie title  "
+  },
+    "cast_title" : "Cast ",
+  "@cast_title" : {
+    "description" : "Text for the label cast title  "
+  }
+  ,
+    "series_title" : "Series ",
+  "@series_title" : {
+    "description" : "Text for the label series title  "
+  }
+  ,
+    "add_favourite_text" : "Add to favorites ",
+  "@add_favourite_text" : {
+    "description" : "Text for the label ad to favorite text  "
+  },
+  
+    "added_favourite_text" : "Added to favorites ",
+  "@added_favourite_text" : {
+    "description" : "Text for the label added to favorite text  "
+  },
+    "something_went_wrong_text" : "something went wrong ",
+  "@something_went_wrong_text" : {
+    "description" : "Text for the label something went text  "
+  },
+    "favorites_movies_title" : "Favorite Movies ",
+  "@favorites_movies_title" : {
+    "description" : "Text for the title of favorites movies page  "
+  },
+    "delete_from_favorites_text" : "Delete from favorites ",
+  "@delete_from_favorites_text" : {
+    "description" : "Text for the label of button delte from favorites  "
+  }
+,
+    "dont_have_favorites_text" : "You dont have any favorite movies ",
+  "@dont_have_favorites_text" : {
+    "description" : "Text for the label of snackbar for dont have favorite movies  "
+  },
+    "delete_from_favorites_succsesful_text" : "Removed from favorites succsesful ",
+  "@delete_from_favorites_succsesful_text" : {
+    "description" : "Text for the snackbar  for remove favorite movies succsesfull  "
+  }
+
+
+
+}
