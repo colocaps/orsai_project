@@ -15,4 +15,16 @@ abstract class NavigationManager {
     RoutePredicate predicate, {
     TArgs? args,
   });
+
+  Future<T?> transitionPushTo<T, TArgs>(
+    BuildContext context,
+    Widget page,
+    TArgs? args,
+  );
+
+  Future<T?> transitionReplaceTo<T, TArgs>(
+    BuildContext context,
+    Widget page,
+    TArgs? args,
+  );
 }

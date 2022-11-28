@@ -35,4 +35,35 @@ class NavigationManagerImpl implements NavigationManager {
       arguments: args,
     );
   }
+
+  @override
+  Future<T?> transitionPushTo<T, TArgs>(
+    BuildContext context,
+    Widget page,
+    TArgs? args,
+  ) {
+    return Navigator.of(context).push(PageRouteBuilder<T>(
+      pageBuilder: (c, a1, a2) => page,
+      transitionsBuilder: (c, anim, a2, child) =>
+          FadeTransition(opacity: anim, child: child),
+      transitionDuration: const Duration(milliseconds: 500),
+    ));
+  }
+
+  @override
+  Future<T?> transitionReplaceTo<T, TArgs>(
+    BuildContext context,
+    Widget page,
+    TArgs? args,
+  ) {
+    return Navigator.of(context).pushAndRemoveUntil(
+      PageRouteBuilder<T>(
+        pageBuilder: (c, a1, a2) => page,
+        transitionsBuilder: (c, anim, a2, child) =>
+            FadeTransition(opacity: anim, child: child),
+        transitionDuration: const Duration(milliseconds: 500),
+      ),
+      (_) => false,
+    );
+  }
 }
