@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -65,7 +67,7 @@ class ProfileSelectionComponent extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(
-                  height: 80,
+                  height: 50,
                 ),
                 SizedBox(
                   height: MediaQuery.of(context).size.height * 0.7,
@@ -75,6 +77,9 @@ class ProfileSelectionComponent extends StatelessWidget {
                       return ProfileSelectionCard(
                         profileSelectionEntity:
                             profileSelectionEntityList[index],
+                        onTap: () {
+                          log(profileSelectionEntityList[index].profileName);
+                        },
                       );
                     },
                     separatorBuilder: (BuildContext context, int index) {
