@@ -55,6 +55,8 @@ dependencies:
     path: ./core
   sign_in:
     path: ./features/auth_module/sign_in
+  profile_selection:
+    path: ./features/auth_module/profile_selection  
 
 dev_dependencies:
   flutter_test:

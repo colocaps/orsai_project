@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:profile_selection/profile_selection.dart';
 import 'package:sign_in/sign_in.dart';
 
 import 'application/application.dart';
@@ -19,4 +20,5 @@ void main() async {
 Future<void> _registerDependencies() async {
   IoCManager.registerDependencies();
   await SignInInitializer.registerDependencies();
+  await ProfileSelectionInitializer.registerDependencies();
 }

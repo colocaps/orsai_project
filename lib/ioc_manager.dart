@@ -33,5 +33,9 @@ abstract class IoCManager {
     injector.registerLazySingleton<EventBus>(
       () => EventBusImpl(),
     );
+
+    injector.registerLazySingleton<ConnectionHelper>(
+      () => ConnectionHelperImpl(),
+    );
   }
 }

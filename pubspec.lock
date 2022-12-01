@@ -574,6 +574,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  profile_selection:
+    dependency: "direct main"
+    description:
+      path: "features/auth_module/profile_selection"
+      relative: true
+    source: path
+    version: "0.0.1"
   provider:
     dependency: transitive
     description:
