@@ -1,5 +1,13 @@
 library core;
 
+export 'package:core/src/widgets/speedy_animation.dart' show SpeedyAnimation;
+
+export 'package:core/src/integrations/rive_animations_manager_impl.dart'
+    show RiveAnimationsManagerImpl;
+
+export 'package:core/src/abstractions/rive_animations_manager.dart'
+    show RiveAnimationsManager;
+
 export 'package:core/src/utils/loading_indicator.dart' show LoadingIndicator;
 
 export 'package:core/src/entities/entities.dart';

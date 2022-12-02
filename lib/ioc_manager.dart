@@ -9,6 +9,8 @@ abstract class IoCManager {
     injector.registerLazySingleton<NavigationManager>(
       () => NavigationManagerImpl(),
     );
+    injector.registerFactory<RiveAnimationsManager>(
+        () => RiveAnimationsManagerImpl());
 
     injector.registerFactoryByName(
       () => EnvironmentConfig.baseUrl,

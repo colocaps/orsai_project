@@ -11,6 +11,7 @@ import 'widgets/profile_selection_card.dart';
 class ProfileSelectionComponent extends StatelessWidget {
   final ProfileSelectionCubit _profileSelectionCubit;
   final CustomTopSnackBarManager _snackBarManager;
+
   const ProfileSelectionComponent({
     required ProfileSelectionCubit profileSelectionCubit,
     required CustomTopSnackBarManager snackBarManager,
@@ -41,7 +42,7 @@ class ProfileSelectionComponent extends StatelessWidget {
     ProfileSelectionState state,
   ) {
     if (state is ProfileSelectionLoading) {
-      return const LoadingIndicator();
+      return const SpeedyAnimation();
     } else if (state is ProfileSelectionLoaded) {
       final List<ProfileSelectionEntity> profileSelectionEntityList =
           state.selectionProfileEnityList;

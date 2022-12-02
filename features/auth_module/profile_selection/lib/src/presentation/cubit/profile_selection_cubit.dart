@@ -15,23 +15,25 @@ class ProfileSelectionCubit extends Cubit<ProfileSelectionState> {
 
   Future<void> getProfileData() async {
     emit(ProfileSelectionLoading());
-    if (await isNotConnected()) {
-      emit(
-        ProfileSelectionConnectionError(),
-      );
-      return;
-    }
+    Future.delayed(const Duration(seconds: 4), () async {
+      if (await isNotConnected()) {
+        emit(
+          ProfileSelectionConnectionError(),
+        );
+        return;
+      }
 
-    var result = await _profileSelectionUsecase.execute();
-    if (result.hasErrors) {
-      emit(
-        ProfileSelectionError(result.errors!),
-      );
-    } else {
-      emit(
-        ProfileSelectionLoaded(result.profileSelectionEntity!),
-      );
-    }
+      var result = await _profileSelectionUsecase.execute();
+      if (result.hasErrors) {
+        emit(
+          ProfileSelectionError(result.errors!),
+        );
+      } else {
+        emit(
+          ProfileSelectionLoaded(result.profileSelectionEntity!),
+        );
+      }
+    });
   }
 
   Future<bool> isNotConnected() async => !await _connectionHelper.isConnected();
